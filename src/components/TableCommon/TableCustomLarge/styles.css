@@ -1,0 +1,47 @@
+.table-stake-his {
+  margin-bottom: 40px;
+}
+.ant-card {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 25%);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.ant-card .ant-table-thead > tr > th,
+.ant-card .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #ffb12c !important;
+}
+.ant-card .ant-table-measure-row {
+  display: none;
+}
+.ant-card .ant-card-head .ant-card-head-wrapper {
+  height: 100%;
+}
+.ant-card .ant-card-head .ant-card-head-wrapper .ant-card-head-title {
+  color: #333;
+}
+.ant-card .ant-card-body {
+  padding: 0;
+}
+.ant-card .report-table .ant-table {
+  border-top: 1px solid #ffb12c !important;
+  background-color: transparent;
+}
+.ant-card .ant-table .ant-table-cell {
+  color: #333;
+  background-color: transparent;
+  white-space: nowrap;
+}
+.ant-card .ant-empty .ant-empty-description {
+  color: #333;
+}
+
+.ant-card .ant-pagination-item-ellipsis,
+.ant-card .ant-pagination .ant-select-selector,
+.ant-card .ant-pagination .ant-pagination-item-active {
+  color: #ffb12c;
+  border-color: #ffb12c;
+}

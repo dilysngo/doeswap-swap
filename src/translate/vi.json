@@ -1,0 +1,56 @@
+[
+  {
+    "data": {
+      "contentType": "text/plain",
+      "createdAt": "2021-02-03T17:36:19+00:00",
+      "stringId": 9999,
+      "text": "Contract",
+      "translationId": 999999
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "createdAt": "2021-02-03T17:36:19+00:00",
+      "stringId": 9998,
+      "text": "Documents",
+      "translationId": 999998
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "createdAt": "2021-02-03T17:36:19+00:00",
+      "stringId": 9997,
+      "text": "Medium",
+      "translationId": 999997
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "createdAt": "2021-02-03T17:36:19+00:00",
+      "stringId": 9996,
+      "text": "Telegram Channel",
+      "translationId": 999996
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "createdAt": "2021-02-03T17:36:19+00:00",
+      "stringId": 9995,
+      "text": "Reddit",
+      "translationId": 999995
+    }
+  },
+  {
+    "data": {
+      "contentType": "text/plain",
+      "createdAt": "2021-02-03T17:36:19+00:00",
+      "stringId": 9994,
+      "text": "Twitter",
+      "translationId": 34602
+    }
+  }
+]

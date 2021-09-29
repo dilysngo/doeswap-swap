@@ -1,0 +1,11 @@
+.modal-stake .lable-form .balance {
+  color: #847e7e;
+  white-space: nowrap;
+}
+.modal-stake .lable-form .balance span {
+  max-width: 185px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}

@@ -1,0 +1,116 @@
+/* All */
+.custom-modal .ant-modal-content {
+  background: #ffffff;
+  box-shadow: 0px 20px 36px -8px rgb(14 14 44 / 10%), 0px 1px 1px rgb(0 0 0 / 5%);
+  border: 1px solid #e9eaeb;
+  border-radius: 32px;
+}
+.custom-modal .ant-modal-header {
+  background: unset;
+}
+.custom-modal .ant-modal-body {
+  padding: 15px 24px 14px !important;
+}
+.custom-modal .ant-modal-body .ant-select-selector,
+.custom-modal .ant-modal-body input {
+  height: 50px !important;
+  border-radius: 4px;
+}
+.custom-modal .ant-modal-body label,
+.custom-modal .ant-modal-body .lable-form {
+  font-size: 18px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+.custom-modal .ant-modal-body .btn-confirm {
+  margin-top: 17px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #d42d34;
+  box-shadow: 0 0 15px #d42d34;
+  cursor: pointer;
+}
+.custom-modal .ant-modal-body .btn-confirm button {
+  padding: 2px 10px;
+  color: #fff;
+  height: 100%;
+  font-size: 27px;
+  background: unset;
+  border: unset;
+}
+.custom-modal .ant-modal-body .btn-confirm button:valid,
+.custom-modal .ant-modal-body .btn-confirm button:hover,
+.custom-modal .ant-modal-body .btn-confirm button:active {
+  overflow: hidden;
+}
+.custom-modal .ant-modal-footer {
+  padding: 10px 24px 10px !important;
+  cursor: pointer;
+  border: unset;
+}
+.custom-modal .ant-modal-footer button {
+}
+.custom-modal .ant-modal-footer button:active,
+.custom-modal .ant-modal-footer button:focus,
+.custom-modal .ant-modal-footer button:valid,
+.custom-modal .ant-modal-footer button:hover {
+}
+.custom-modal .ant-modal-footer .modal-footer-label {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-top: 0px !important;
+  border: #fff 1px solid;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #b7182d 0%, #e53e50 100%);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Custom */
+.custom-modal .ant-modal-content .ant-modal-close .ant-modal-close-x {
+  color: #f9ae2e;
+}
+.custom-modal .ant-modal-content .ant-modal-header {
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px #fff f solid !important;
+}
+.custom-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+  color: #fff;
+}
+.custom-modal .ant-modal-content .ant-modal-body {
+  color: #fff;
+}
+.custom-modal .ant-modal-content .ant-modal-body .canvas-qrcode {
+  width: 100%;
+  text-align: center;
+}
+.custom-modal .ant-modal-content .ant-modal-body .canvas-qrcode canvas {
+  border: 5px solid #fff;
+}
+.custom-modal .ant-modal-content .ant-modal-footer {
+  border-top: 1px #fff solid !important;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.custom-modal .ant-modal-content .ant-modal-footer .btn-submit {
+  height: auto;
+  font-size: 27px;
+  color: #fff;
+  padding: 0;
+  width: 100%;
+}
+.custom-modal .ant-modal-content .style-input input.ant-input {
+  font-size: 17px;
+  color: #fff;
+  outline: #f9354c !important;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.custom-modal .ant-modal-content .style-input .ant-input-affix-wrapper {
+  background: rgba(50, 2, 11, 0.5);
+  border-radius: 5px !important;
+  border: unset !important;
+}

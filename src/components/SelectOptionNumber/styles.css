@@ -1,0 +1,21 @@
+.button-action-amount {
+  text-align: right;
+  white-space: nowrap;
+}
+.button-action-amount button {
+  color: #e19644;
+  border-color: #e19644;
+  width: 56px;
+  height: 31px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  padding: 3px;
+  border-radius: 8px;
+  margin: 0 3px;
+}
+@media only screen and (max-width: 640px) {
+  .button-action-amount {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}
