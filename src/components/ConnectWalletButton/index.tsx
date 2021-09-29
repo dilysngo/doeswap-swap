@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, ButtonProps, useWalletModal } from 'horaswap-libs-uikit'
+import { Button, ButtonProps, useWalletModal } from "doeswap-libs-uikit"
 import useI18n from 'hooks/useI18n'
 import useAuth from 'hooks/useAuth'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from 'horaswap-libs-uikit'
+import { Text } from "doeswap-libs-uikit"
 import styled from 'styled-components'
 import { RowFixed } from '../Row'
 

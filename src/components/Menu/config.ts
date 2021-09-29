@@ -1,4 +1,4 @@
-import { MenuEntry } from 'horaswap-libs-uikit'
+import { MenuEntry } from "doeswap-libs-uikit"
 
 /**
  * label: string
@@ -45,12 +45,6 @@ export const config: MenuEntry[] = [
     href: "#",
   },
   {
-    label: "HORA Gallery",
-    icon: "GalleryIcon",
-    att: "SOON",
-    href: "#",
-  },
-  {
     label: "Sport NFT",
     icon: "SpotIcon",
     href: "#",
@@ -80,7 +74,7 @@ export const config: MenuEntry[] = [
     href: "https://info.horaswap.com", 
   },
   {
-    label: "Contact",
+    label: "Binance",
     icon: "GroupsIcon",
     items: [ 
       {

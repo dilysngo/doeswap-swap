@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { Text, CopyIcon } from 'horaswap-libs-uikit'
+import { Text, CopyIcon } from "doeswap-libs-uikit"
 
 interface Props {
   toCopy: string

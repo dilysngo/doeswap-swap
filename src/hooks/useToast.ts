@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { kebabCase } from 'lodash'
-import { Toast, toastTypes } from 'horaswap-libs-uikit'
+import { Toast, toastTypes } from "doeswap-libs-uikit"
 import { useDispatch } from 'react-redux'
 
 import { push as pushToast, remove as removeToast, clear as clearToast } from 'state/actions'

@@ -1,15 +1,27 @@
-import { Text, Flex } from 'horaswap-libs-uikit';
 import React from "react"
+import { useWeb3React } from '@web3-react/core';
+import { Text, Flex } from "doeswap-libs-uikit";
+import { get } from 'lodash';
 import styled from 'styled-components';
+import { roundNumber } from 'helpers/CommonHelper';
 import { AutoColumn } from '../../../components/Column/index';
+import { useProfileAccount } from '../../../state/application/hooks';
 
 const Container = styled.div`
   width: 100%;
-  display: inline-flex;
-  flex: 0 0 50%;
-  max-width: 50%;
-
+  
   align-items: center;
+  margin-top: 15px;
+
+  display: inline-flex;
+  flex: 0 0 100%;
+  max-width: 100%;
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    flex: 0 0 50%;
+    max-width: 50%; 
+    margin-top: 0;
+  }
 `
 const Body = styled.div`
   width: 100%;
@@ -18,6 +30,16 @@ const Body = styled.div`
   padding: 20px 30px;
   border-radius: 26px;
   background: #FFFFFF;
+`
+const CustomFlex = styled(Flex)`
+  @media only screen and (max-width: 370px) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    & > div:last-child {
+      margin-top: 4px;
+    }
+  }
 `
 const BoxWallet = styled.div`
   display:flex;
@@ -41,22 +63,23 @@ const BoxWallet = styled.div`
   }
 
 ` 
-
+ 
 const Index:React.FC = () => {
-
+  const { account } = useWeb3React()
+  const userInfo = useProfileAccount()
   return (
     <Container className="header-container">
       <Body>
-        <Flex justifyContent="space-between" alignItems="center" height="100%">
+        <CustomFlex justifyContent="space-between" alignItems="center" height="100%">
           <AutoColumn>
-            <Text fontSize="20px" fontWeight="600">$0</Text>
+            <Text fontSize="20px" fontWeight="600">{account ? roundNumber(get(userInfo, 'balance', 0), 8) : '--'}</Text>
             <Text fontSize="16px">to collect</Text>
           </AutoColumn>
           <BoxWallet>
             <Text color="#023886">Binance</Text>
             <img src="/images/icons/bnb.png"  alt="" />
           </BoxWallet>
-        </Flex>
+        </CustomFlex>
       </Body>
     </Container> 
   )

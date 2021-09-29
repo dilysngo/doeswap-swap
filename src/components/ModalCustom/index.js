@@ -1,7 +1,7 @@
 import './styles.css'
 import React from 'react'
 import { Modal } from 'antd'
-import { Text } from 'horaswap-libs-uikit'
+import { Text } from "doeswap-libs-uikit"
 import ButtonMain from 'components/ButtonMain'
 import { Dots } from 'components/swap/styleds'
 

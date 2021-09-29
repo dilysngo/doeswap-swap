@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal } from 'horaswap-libs-uikit'
+import { Modal } from "doeswap-libs-uikit"
 import SlippageToleranceSetting from './SlippageToleranceSetting'
 import TransactionDeadlineSetting from './TransactionDeadlineSetting'
 

@@ -1,6 +1,6 @@
 import './styles.css'
 import React, { useState, useMemo } from 'react'
-import { Text } from 'horaswap-libs-uikit'
+import { Text } from "doeswap-libs-uikit"
 import { Tag } from 'antd'
 import { get } from 'lodash'
 import ReactTimeAgo from 'react-time-ago'

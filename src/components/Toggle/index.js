@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Toggle } from 'horaswap-libs-uikit'
+import { Text, Toggle } from "doeswap-libs-uikit"
 import styled from 'styled-components'
 
 const Wrapper = styled.div`

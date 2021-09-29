@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { ButtonMenu, ButtonMenuItem } from 'horaswap-libs-uikit'
+import { ButtonMenu, ButtonMenuItem } from "doeswap-libs-uikit"
 import useI18n from 'hooks/useI18n'
 
 interface Props {

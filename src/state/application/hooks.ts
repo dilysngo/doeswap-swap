@@ -4,6 +4,10 @@ import { useActiveWeb3React } from '../../hooks'
 import { addPopup, PopupContent, removePopup, toggleWalletModal, toggleSettingsMenu } from './actions'
 import { AppState } from '../index'
 
+export function useProfileAccount(): any {
+  return useSelector((state: AppState) => state.application.account)
+} 
+
 export function useBlockNumber(): number | undefined {
   const { chainId } = useActiveWeb3React()
 

@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import { Currency, Pair } from '@pancakeswap/sdk'
-import { Button, Text } from 'horaswap-libs-uikit'
+import { Button, Text } from "doeswap-libs-uikit"
 import styled from 'styled-components'
 import { darken } from 'polished'
 import DownIcon from 'assets/images/down-icon.svg'
@@ -18,7 +18,7 @@ const InputRow = styled.div<{ selected: boolean }>`
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  padding: ${({ selected }) => (selected ? '0.75rem 0.5rem 0.75rem 1rem' : '0.75rem 0.75rem 0.75rem 1rem')};
+  padding: ${({ selected }) => (selected ? '1.25rem 0.5rem 1.45rem 1rem' : '1.25rem 0.75rem 1.45rem 1rem')};
 `
 const CurrencySelect = styled.button<{ selected: boolean }>`
   align-items: center;
@@ -64,7 +64,7 @@ const LabelRow = styled.div`
   color: ${({ theme }) => theme.colors.text};
   font-size: 0.75rem;
   line-height: 1rem;
-  padding: 0.75rem 1rem 0 1rem;
+  padding: 1.45rem 1.2rem 0 1.2rem;
   span:hover {
     cursor: pointer;
     color: ${({ theme }) => darken(0.2, theme.colors.textSubtle)};

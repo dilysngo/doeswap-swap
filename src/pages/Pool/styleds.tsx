@@ -1,4 +1,4 @@
-import { Text } from 'horaswap-libs-uikit' 
+import { Text } from "doeswap-libs-uikit" 
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`

@@ -1,7 +1,7 @@
 import { ChainId } from '@pancakeswap/sdk'
 import React, { useContext } from 'react'
 import { ThemeContext } from 'styled-components'
-import { Button, LinkExternal } from 'horaswap-libs-uikit'
+import { Button, LinkExternal } from "doeswap-libs-uikit"
 import { ArrowUpCircle } from 'react-feather'
 import { AutoColumn } from '../Column'
 import { getBscScanLink } from '../../utils'

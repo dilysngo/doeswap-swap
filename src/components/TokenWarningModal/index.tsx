@@ -1,6 +1,6 @@
 import { Token } from '@pancakeswap/sdk'
 import { transparentize } from 'polished'
-import { Button, Text } from 'horaswap-libs-uikit'
+import { Button, Text } from "doeswap-libs-uikit"
 import React, { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'
 import { AlertTriangle } from 'react-feather'

@@ -6,6 +6,7 @@ import CardInfoWallet from './CardInfoWallet'
 const Container = styled.div`
   width: 100%;
   background: linear-gradient(356.65deg, #BAE3FF 2.84%, #B2DFFF 49.59%, #44CAFF 97.32%);
+  border-bottom: 2px solid #4F5FF8;
 `
 const Body = styled.div`
   display: flex;

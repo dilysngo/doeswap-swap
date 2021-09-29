@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import { ThemeContext } from 'styled-components'
 import { Pair } from '@pancakeswap/sdk'
-import { Button, CardBody, Text } from 'horaswap-libs-uikit'
+import { Button, CardBody, Text } from "doeswap-libs-uikit"
 import { Link } from 'react-router-dom'
 import CardNav from 'components/CardNav'
 import Question from 'components/QuestionHelper'
@@ -22,6 +22,7 @@ import PageHeader from 'components/PageHeader'
 import BlockIcon from 'components/PageHeader/BlockIcon'
 import WrapperContent from '../WrapperContent'
 import AppBody from '../AppBody'
+import BodyWrapper from '../BodyWrapper'
 import CustomButton from './CustomButton'
 
 export default function Pool() {
@@ -55,27 +56,28 @@ export default function Pool() {
   return (
     <WrapperContent>
       <AppBody>
-        <BlockIcon />
-        <CardNav activeIndex={1} />
-        <PageHeader
-          title={TranslateString(262, 'Liquidity')}
-          // description={TranslateString(1168, 'Add liquidity to receive LP tokens')}
-        >
-          <CustomButton>
-            <Button 
-              id="join-pool-button"
-              width="100%" 
-              scale="sm"
-              as={Link}
-              to="/add/BNB"
-              height={40}
-              // variant="subtle" 
-            >
-              {TranslateString(168, 'Add Liquidity')}
-            </Button>
-          </CustomButton>
-        </PageHeader>
-        <AutoColumn gap="lg" justify="center">
+        <BodyWrapper>
+          <BlockIcon />
+          <CardNav activeIndex={1} />
+          <PageHeader
+            title={TranslateString(262, 'Liquidity')}
+            // description={TranslateString(1168, 'Add liquidity to receive LP tokens')}
+          >
+            <CustomButton>
+              <Button 
+                id="join-pool-button"
+                width="100%" 
+                scale="sm"
+                as={Link}
+                to="/add/BNB"
+                height={40}
+                // variant="subtle" 
+              >
+                {TranslateString(168, 'Add Liquidity')}
+              </Button>
+            </CustomButton>
+          </PageHeader>
+          <AutoColumn gap="lg" justify="center">
           <CardBody>
             <AutoColumn gap="12px" style={{ width: '100%' }}>
               <RowBetween padding="0 8px">
@@ -128,6 +130,7 @@ export default function Pool() {
             </AutoColumn>
           </CardBody>
         </AutoColumn>
+        </BodyWrapper>
       </AppBody>
       <Footer />
     </WrapperContent>

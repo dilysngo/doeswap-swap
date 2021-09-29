@@ -1,17 +1,15 @@
-/* eslint-disable no-console */
-/* eslint-disable no-restricted-syntax */
 import 'assets/css/global.css'
 import React, { Suspense, useEffect, useState } from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
 
+import useGetProfileAccount from 'hooks/useGetProfileAccount'
 import { RedirectDuplicateTokenIds, RedirectOldAddLiquidityPathStructure } from './AddLiquidity/redirects'
 import { RedirectOldRemoveLiquidityPathStructure } from './RemoveLiquidity/redirects'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
 import { EN, allLanguages } from '../constants/localisation/languageCodes'
 import { LanguageContext } from '../hooks/LanguageContext'
 import { TranslationsContext } from '../hooks/TranslationsContext'
-import useGetProfileAccount from "hooks/useGetProfileAccount"
 import Popups from '../components/Popups'
 import Web3ReactManager from '../components/Web3ReactManager'
 import Home from './Home'

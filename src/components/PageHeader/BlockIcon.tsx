@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { IconButton, useModal, CogIcon, Svg } from 'horaswap-libs-uikit'
+import { IconButton, useModal, CogIcon, Svg } from "doeswap-libs-uikit"
 import useI18n from 'hooks/useI18n'
 import SettingsModal from './SettingsModal'
 import RecentTransactionsModal from './RecentTransactionsModal'

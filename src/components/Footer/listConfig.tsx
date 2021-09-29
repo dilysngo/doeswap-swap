@@ -1,4 +1,4 @@
-import { MenuEntry } from 'horaswap-libs-uikit'
+import { MenuEntry } from "doeswap-libs-uikit"
 
 const config: MenuEntry[] = [
   {

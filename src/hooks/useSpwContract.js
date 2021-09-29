@@ -29,8 +29,10 @@ export async function loadWeb3() {
 export async function loadBlockchainData(account) {
   const { web3 } = window
 
+  const decimals = 18
+
   // ETH Balance
-  const ethBalance = await web3.eth.getBalance(account)
+  const ethBalance = await web3.eth.getBalance(account) / +`1e${decimals}`
 
   // Token Balance
   const networkId = await web3.eth.net.getId()
@@ -38,6 +40,7 @@ export async function loadBlockchainData(account) {
   return {
     address: account,
     balance: ethBalance,
+    decimals,
     chainId: networkId,
   }
 }

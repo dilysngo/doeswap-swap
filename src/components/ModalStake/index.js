@@ -2,7 +2,7 @@
 import './styles.css'
 import React, { useCallback, useMemo, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Text } from 'horaswap-libs-uikit'
+import { Text } from "doeswap-libs-uikit"
 import { Form, Input } from 'antd'
 import { get } from 'lodash'
 import BigNumber from 'bignumber.js'

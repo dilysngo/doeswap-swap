@@ -1,7 +1,7 @@
 import React from 'react'
 import { createWeb3ReactRoot, Web3ReactProvider } from '@web3-react/core'
 import { Provider } from 'react-redux'
-import { ModalProvider } from 'horaswap-libs-uikit'
+import { ModalProvider } from "doeswap-libs-uikit"
 import { NetworkContextName } from './constants'
 import store from './state'
 import getLibrary from './utils/getLibrary'

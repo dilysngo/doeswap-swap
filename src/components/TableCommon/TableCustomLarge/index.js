@@ -1,6 +1,6 @@
 import './styles.css'
 import React, { useMemo } from 'react'
-import { Text } from 'horaswap-libs-uikit'
+import { Text } from "doeswap-libs-uikit"
 import { Table, Card } from 'antd'
 import { trim, get } from 'lodash'
 

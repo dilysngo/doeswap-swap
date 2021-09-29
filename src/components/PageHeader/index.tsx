@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import styled from 'styled-components'
-import { Text, Flex } from 'horaswap-libs-uikit'
-// import { Heading, IconButton, Text, Flex, useModal, CogIcon, Svg } from 'horaswap-libs-uikit'
+import { Text, Flex } from "doeswap-libs-uikit"
+// import { Heading, IconButton, Text, Flex, useModal, CogIcon, Svg } from "doeswap-libs-uikit"
 // import useI18n from 'hooks/useI18n'
 // import SettingsModal from './SettingsModal'
 // import RecentTransactionsModal from './RecentTransactionsModal'

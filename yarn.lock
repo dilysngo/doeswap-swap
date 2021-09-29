@@ -8668,6 +8668,18 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+doeswap-libs-uikit@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/doeswap-libs-uikit/-/doeswap-libs-uikit-0.0.1.tgz#b5d7193d994058f4c99a6f8574a87718da051770"
+  integrity sha512-kk2ztD+xDjLj0T3d3RDik38igvocYVENv7dgb3XSHRF3AedHWFRlnqKHLzNhuGctNJlhdilvVFT2GINN/TeirA==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    antd "^4.14.1"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 dom-accessibility-api@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/dom-accessibility-api/-/dom-accessibility-api-0.5.6.tgz#3f5d43b52c7a3bd68b5fb63fa47b4e4c1fdf65a9"
@@ -11516,18 +11528,6 @@ hoopy@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hoopy/-/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
   integrity sha512-HRcs+2mr52W0K+x8RzcLzuPPmVIKMSv97RGHy0Ea9y/mpcaK+xTrjICA04KAHi4GRzxliNqNJEFYWHghy3rSfQ==
-
-horaswap-libs-uikit@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/horaswap-libs-uikit/-/horaswap-libs-uikit-0.0.4.tgz#6476ce7863b085a12ad495a2651e86ec931fa1ed"
-  integrity sha512-fBDx07i5BqgMhPMpHUCYetJw2nR03rtvffvU+muoRh7pgArIix+pHAgG3ZLm0B0TWsVUltVquySpHkMrrlKT1g==
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    antd "^4.14.1"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 hosted-git-info@^2.1.4, hosted-git-info@^2.6.0:
   version "2.8.9"

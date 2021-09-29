@@ -1,4 +1,4 @@
-import { Text } from "horaswap-libs-uikit";
+import { Text } from "doeswap-libs-uikit";
 import React from "react"
 import styled from 'styled-components';
 import { useWeb3React } from '@web3-react/core';
@@ -8,8 +8,13 @@ const Container = styled.div`
   flex-direction: row;
   align-items: center;
   
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 100%;
+  max-width: 100%;
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    flex: 0 0 50%;
+    max-width: 50%; 
+  }
 `
 const Cover = styled.img`
   width: 80px;

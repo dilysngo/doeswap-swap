@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, SearchIcon } from 'horaswap-libs-uikit'
+import { Text, SearchIcon } from "doeswap-libs-uikit"
 
 interface Props {
   title: string

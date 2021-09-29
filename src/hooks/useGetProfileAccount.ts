@@ -2,7 +2,7 @@
 import { useEffect, useState, useReducer, useCallback } from 'react'
 import { useDispatch } from 'react-redux'
 import { useWeb3React } from '@web3-react/core'
-import { loadWeb3, loadBlockchainData, useCreateTokenContract } from 'hooks/useSpwContract'
+import { loadWeb3, loadBlockchainData, useStakingTokenContract } from 'hooks/useSpwContract'
 import { setAccountToState } from 'state/application/actions'
 import Misc from 'helpers/Misc'
 import useInterval from 'hooks/useInterval'
@@ -14,22 +14,23 @@ export default function useLoadProfileAccount() {
   const [, forceUpdate] = useReducer((x) => x + 1, 0)
   const [web3IsActive, setWeb3IsActive] = useState<boolean>(false)
 
-  const contractBep20 = useCreateTokenContract(BASE_TOKEN.address)
+  const { account } = useWeb3React()
+  const contractBep20 = useStakingTokenContract()
 
   const getProfileAccont = useCallback(async () => {
-    if (!contractBep20?.methods) {
+    if (account && !contractBep20?.methods) {
       forceUpdate() 
       await Misc.sleep(1000); 
     }
 
-    if (contractBep20) {
+    if (account && contractBep20) {
       let resultAccount
-      const resultToken = {}
+      const resultToken = {} 
       try {
-        resultAccount = await loadBlockchainData(byAccount)
+        resultAccount = await loadBlockchainData(account)
         if (contractBep20) {
           await Promise.all([
-            contractBep20.methods.balanceOf(byAccount).call(),
+            contractBep20.methods.balanceOf(account).call(),
             contractBep20.methods.symbol().call(),
             contractBep20.methods.name().call(),
             contractBep20.methods.decimals().call(),
@@ -54,7 +55,7 @@ export default function useLoadProfileAccount() {
         console.error('E0001', e) 
       }
     }
-  }, [byAccount, contractBep20, dispatch])
+  }, [account, contractBep20, dispatch])
 
   const connectionWeb3 = useCallback(async () => {
     const isWalletAvailable = loadWeb3()

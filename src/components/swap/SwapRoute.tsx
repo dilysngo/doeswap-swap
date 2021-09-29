@@ -1,7 +1,7 @@
 import { Trade } from '@pancakeswap/sdk'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
-import { Flex, Text } from 'horaswap-libs-uikit'
+import { Flex, Text } from "doeswap-libs-uikit"
 import { ThemeContext } from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'
 
