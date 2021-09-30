@@ -11,12 +11,12 @@ import { MenuEntry } from "doeswap-libs-uikit"
  */
 
 export const config: MenuEntry[] = [
-  {
-    label: "Home",
-    icon: "HomeIcon",
-    href: "/",
-    calloutClass: 'rainbow',
-  },
+  // {
+  //   label: "Home",
+  //   icon: "HomeIcon",
+  //   href: "/",
+  //   calloutClass: 'rainbow',
+  // },
   {
     label: "Trade",
     icon: "TradeIcon",
@@ -24,7 +24,7 @@ export const config: MenuEntry[] = [
     items: [ 
       {
         label: "Exchange",
-        href: "/swap",
+        href: "/",
       },
       {
         label: "Liquidity",

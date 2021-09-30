@@ -11,6 +11,15 @@
   "keywords": ["hora", "default"],
   "tokens": [
     {
+      "name": "Sexual Wellness Token",
+      "symbol": "SXW",
+      "address": "0x8ac517b1c5c484e2dfe2f1cf510ea416bb71de4c",
+      "chainId": 56,
+      "decimals": 18,
+      "position": 1,
+      "logoURI": ""
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",

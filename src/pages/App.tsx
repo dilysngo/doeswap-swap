@@ -12,7 +12,7 @@ import { LanguageContext } from '../hooks/LanguageContext'
 import { TranslationsContext } from '../hooks/TranslationsContext'
 import Popups from '../components/Popups'
 import Web3ReactManager from '../components/Web3ReactManager'
-import Home from './Home'
+// import Home from './Home'
 import Swap from './Swap'
 import Pool from './Pool'
 import AddLiquidity from './AddLiquidity'
@@ -88,8 +88,8 @@ export default function App() {
                   <Popups />
                   <Web3ReactManager>
                     <Switch>
-                      <Route exact strict path="/" component={Home} />
-                      <Route exact strict path="/swap" component={Swap} />
+                      {/* <Route exact strict path="/" component={Home} /> */}
+                      <Route exact strict path="/" component={Swap} />
                       {/* <Route exact strict path="/find" component={PoolFinder} /> */}
                       <Route exact strict path="/pool" component={Pool} />
                       <Route exact path="/add" component={AddLiquidity} />
