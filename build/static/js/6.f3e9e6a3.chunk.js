@@ -1,1 +1,0 @@
-(this["webpackJsonp@HoraSwap/interface"]=this["webpackJsonp@HoraSwap/interface"]||[]).push([[6],{1248:function(a,p){}}]);
