@@ -1,0 +1,31 @@
+{
+  "files": {
+    "static/js/0.9309700d.chunk.js": "./static/js/0.9309700d.chunk.js",
+    "main.css": "./static/css/main.c20af36b.chunk.css",
+    "main.js": "./static/js/main.486d60a4.chunk.js",
+    "runtime-main.js": "./static/js/runtime-main.bf99a31f.js",
+    "static/css/3.f32e5448.chunk.css": "./static/css/3.f32e5448.chunk.css",
+    "static/js/3.f2ae6400.chunk.js": "./static/js/3.f2ae6400.chunk.js",
+    "static/js/4.c0ec8000.chunk.js": "./static/js/4.c0ec8000.chunk.js",
+    "static/js/5.411684c2.chunk.js": "./static/js/5.411684c2.chunk.js",
+    "static/js/6.f3e9e6a3.chunk.js": "./static/js/6.f3e9e6a3.chunk.js",
+    "static/js/7.de8b078d.chunk.js": "./static/js/7.de8b078d.chunk.js",
+    "index.html": "./index.html",
+    "static/js/0.9309700d.chunk.js.LICENSE.txt": "./static/js/0.9309700d.chunk.js.LICENSE.txt",
+    "static/js/3.f2ae6400.chunk.js.LICENSE.txt": "./static/js/3.f2ae6400.chunk.js.LICENSE.txt",
+    "static/js/4.c0ec8000.chunk.js.LICENSE.txt": "./static/js/4.c0ec8000.chunk.js.LICENSE.txt",
+    "static/js/5.411684c2.chunk.js.LICENSE.txt": "./static/js/5.411684c2.chunk.js.LICENSE.txt",
+    "static/media/inter.css": "./static/media/Inter.var.c2fe3cb2.woff2",
+    "static/media/global.css": "./static/media/KoHo-Regular.956369c5.ttf",
+    "static/media/arow-down.afea2079.svg": "./static/media/arow-down.afea2079.svg",
+    "static/media/down-icon.57b10392.svg": "./static/media/down-icon.57b10392.svg",
+    "static/media/modal-new2.73351e32.jpg": "./static/media/modal-new2.73351e32.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf99a31f.js",
+    "static/css/3.f32e5448.chunk.css",
+    "static/js/3.f2ae6400.chunk.js",
+    "static/css/main.c20af36b.chunk.css",
+    "static/js/main.486d60a4.chunk.js"
+  ]
+}
