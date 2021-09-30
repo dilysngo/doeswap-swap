@@ -11,60 +11,6 @@
   "keywords": ["hora", "default"],
   "tokens": [
     {
-      "name": "HORA Token",
-      "symbol": "HORA",
-      "address": "0x2f93519dffae7e07cc82b0d31ec1bb33811f918d",
-      "chainId": 56,
-      "decimals": 18,
-      "position": 1,
-      "logoURI": ""
-    },
-    {
-      "name": "KWD Token",
-      "symbol": "KWD",
-      "address": "0x735436f172c647911a1ea425c56b3d4b2fc20a90",
-      "chainId": 56,
-      "decimals": 18,
-      "position": 2,
-      "logoURI": ""
-    },
-    {
-      "name": "SPE Token",
-      "symbol": "SPE",
-      "address": "0xdBaAa36B347d56b77Ce0e36f050fCeEBbF9fbc38",
-      "chainId": 56,
-      "decimals": 18,
-      "position": 3,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xdBaAa36B347d56b77Ce0e36f050fCeEBbF9fbc38/logo.png"
-    },
-    {
-      "name": "CRO Token",
-      "symbol": "CRO",
-      "address": "0x21f34acc878d93f0ac83c898eee895207f919386",
-      "chainId": 56,
-      "decimals": 18,
-      "position": 4,
-      "logoURI": ""
-    },
-    {
-      "name": "HORA Os",
-      "symbol": "HORA",
-      "address": "0xa6fd7b5c9eee30309b00b65436a284e2053251e5",
-      "chainId": 56,
-      "decimals": 18,
-      "position": 5,
-      "logoURI": ""
-    },
-    {
-      "name": "CHAINPAD Token",
-      "symbol": "CHAINPAD",
-      "address": "0x2906e5f68c55b73dfd1a92419d34a2c2af6ae812",
-      "chainId": 56,
-      "decimals": 18,
-      "position": 6,
-      "logoURI": ""
-    },
-    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",

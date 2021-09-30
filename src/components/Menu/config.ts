@@ -33,6 +33,11 @@ export const config: MenuEntry[] = [
     ],
   },
   {
+    label: "Info",
+    icon: "InfoIcon",
+    href: 'https://info.doeswap.com',
+  },
+  {
     label: "Earning",
     icon: "EarningIcon",
     att: "SOON",
@@ -41,12 +46,14 @@ export const config: MenuEntry[] = [
   {
     label: "NFT Marketplace",
     icon: "NftIcon",
-    att: "iconHot",
+    att: "SOON",
+    // att: "iconHot",
     href: "#",
   },
   {
     label: "Sport NFT",
     icon: "SpotIcon",
+    att: "SOON",
     href: "#",
   },
   {
@@ -58,7 +65,7 @@ export const config: MenuEntry[] = [
   {
     label: "Gamification",
     icon: "GamificationIcon",
-    att: "iconHot",
+    att: "SOON",
     href: "#",
   }, 
   {
@@ -66,12 +73,6 @@ export const config: MenuEntry[] = [
     icon: "ETH2Icon",
     att: "SOON",
     href: "#",
-  },
-  {
-    label: "Info",
-    icon: "InfoIcon",
-    // att: "SOON",
-    href: '#',
   },
   {
     label: "Binance",
