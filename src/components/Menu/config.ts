@@ -71,7 +71,7 @@ export const config: MenuEntry[] = [
     label: "Info",
     icon: "InfoIcon",
     // att: "SOON",
-    href: "https://info.horaswap.com", 
+    href: '#',
   },
   {
     label: "Binance",
@@ -79,17 +79,17 @@ export const config: MenuEntry[] = [
     items: [ 
       {
         label: "Twitter",
-        href: 'https://twitter.com/os_hora',
+        href: '#',
         target: '_blank',
       },
       {
         label: "Medium",
-        href: "http://horaos.medium.com/",
+        href: '#',
         target: '_blank',
       },
       {
         label: "Telegram",
-        href: 'https://t.me/horaos',
+        href: '#',
         target: '_blank',
       },
     ],

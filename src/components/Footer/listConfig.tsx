@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Contract',
     icon: '',
-    href: 'https://bscscan.com/token/0xa6fd7b5c9eee30309b00b65436a284e2053251e5',
+    href: '#',
     target: '_blank',
   },
   {
@@ -22,19 +22,19 @@ const config: MenuEntry[] = [
   {
     label: 'Telegram Channel',
     icon: '',
-    href: 'https://t.me/horaos',
+    href: "#",
     target: '_blank',
   },
   {
     label: 'Twitter',
     icon: '',
-    href: 'https://twitter.com/os_hora',
+    href: "#",
     target: '_blank',
   },
   {
     label: 'Github',
     icon: '',
-    href: 'https://github.com/HoraOS',
+    href: "#",
     target: '_blank',
   },
 ]
