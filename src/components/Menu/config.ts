@@ -80,17 +80,17 @@ export const config: MenuEntry[] = [
     items: [ 
       {
         label: "Twitter",
-        href: '#',
+        href: 'https://twitter.com/Doeswap1',
         target: '_blank',
       },
       {
         label: "Medium",
         href: '#',
-        target: '_blank',
+        // target: '_blank',
       },
       {
         label: "Telegram",
-        href: '#',
+        href: 'https://t.me/doeswap',
         target: '_blank',
       },
     ],

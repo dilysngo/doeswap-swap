@@ -5,7 +5,7 @@ const config: MenuEntry[] = [
     label: 'Contract',
     icon: '',
     href: '#',
-    target: '_blank',
+    // target: '_blank',
   },
   {
     label: 'Documents',
@@ -22,19 +22,19 @@ const config: MenuEntry[] = [
   {
     label: 'Telegram Channel',
     icon: '',
-    href: "#",
+    href: 'https://t.me/doeswap',
     target: '_blank',
   },
   {
     label: 'Twitter',
     icon: '',
-    href: "#",
+    href: 'https://twitter.com/Doeswap1',
     target: '_blank',
   },
   {
     label: 'Github',
     icon: '',
-    href: "#",
+    href: "https://github.com/doeswap",
     target: '_blank',
   },
 ]
