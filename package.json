@@ -3,6 +3,7 @@
   "description": "doeswap",
   "homepage": ".",
   "private": true,
+  "author": "Ngo Hung<ngohung2395@gmail.com>"
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.0",
     "@crowdin/crowdin-api-client": "^1.8.16",
